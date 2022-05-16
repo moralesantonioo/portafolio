@@ -1,10 +1,13 @@
 import React from 'react'
 import Layout from '../layout'
+import '../styles/about.scss'
 
 const About = () => {
     return(
         <Layout>
-            <p>Sobre mi</p>
+            <div className="about">
+                Sobre mi
+            </div>
         </Layout>
     )
 }

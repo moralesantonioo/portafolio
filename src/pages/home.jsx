@@ -5,7 +5,12 @@ import '../styles/home.scss'
 const Home = () => {
     return(
         <Layout>
-            <p>Home</p>
+            <div className="container">
+                <div className="presentation">HOLA! YO SOY</div>
+                <div className="name">Antonio Morales</div>
+                <div className="specialty">Desarrollador <span className="specialty-name">Frontend<span className="animation">&#160;</span></span></div>
+                {/* <div className="circle"></div> */}
+            </div>
         </Layout>
     )
 }
